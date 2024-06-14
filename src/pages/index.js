@@ -16,12 +16,12 @@ export default function Home() {
       <div className="flex items-end gap-16 relative">
         <Image className="absolute top-0 right-0 -z-1" src={big} width={250} />
         <Image
-          className="absolute -bottom-10 left-0 z-1"
+          className="absolute left-0 z-1"
           src={tiny}
           width={120}
         />
         <Image
-          className="absolute -bottom-5 right-32 z-1"
+          className="absolute right-32 z-1"
           src={threeDot}
           width={12}
         />
@@ -31,7 +31,7 @@ export default function Home() {
           animate={{opacity:100}}
           transition={{duration:1}}
         >
-          <Image src={me} width={450} quality={100} placeholder="blur" />
+          <Image src={me} width={450} quality={100} />
         </m.div>
         <Me/>
       </div>
