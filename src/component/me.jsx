@@ -32,7 +32,7 @@ export default function Me() {
           variants={textParent}
           initial="hidden"
           animate="show"
-          className="flex flex-col gap-6 pb-24"
+          className="flex flex-col self-center gap-6"
         >
           <div>
             <m.h1 variants={text} className="font-light text-3xl">
@@ -40,6 +40,7 @@ export default function Me() {
               <span className="font-bold relative">
                 Bayu Setiawan
                 <Image
+                  alt="dot"
                   className="absolute top-0 -right-4"
                   src={dot}
                   width={12}
@@ -52,7 +53,7 @@ export default function Me() {
             variants={text}
             className="w-[56%]"
           >
-            I'm an undergraduate student and freelancer full stack developer who
+            I&apos;m an undergraduate student and freelancer full stack developer who
             loves new things and always takes responsibility for everything I
             do.
           </m.p>
@@ -65,7 +66,7 @@ export default function Me() {
               Hire me
             </button>
             <button className="flex items-center gap-2 border-2 border-dark-green text-dark-green px-7 py-2.5 rounded-full">
-              <Image src={cv} width={16} />
+              <Image src={cv} width={16} alt="cv" />
               CV
             </button>
           </m.div>

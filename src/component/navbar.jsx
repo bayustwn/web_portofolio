@@ -6,7 +6,7 @@ export default function Navbar() {
             initial={{opacity:0,x:15}}
             animate={{opacity:1,x:0}}
             transition={{duration: 0.7}}
-            className="flex-no-warp flex items-center w-fit fixed top-12 gap-14 right-32 text-black"
+            className="flex-no-warp flex items-center w-fit absolute top-12 gap-14 right-20 text-black"
         >
           <a href="#" className="font-bold">
             Me
